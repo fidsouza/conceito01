@@ -1,0 +1,2 @@
+C:\Users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01.UWP\conceito01.UWP.csproj;x64
+C:\Users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01\conceito01.csproj;neutral

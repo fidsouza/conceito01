@@ -11,7 +11,7 @@
 namespace conceito01 {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("c:\\users\\fcsouza\\documents\\visual studio 2017\\Projects\\conceito01\\conceito01\\conc" +
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\fcsouza\\documents\\visual studio 2017\\Projects\\conceito01\\conceito01\\conc" +
         "eito01\\App.xaml")]
     public partial class App : global::Xamarin.Forms.Application {
         
