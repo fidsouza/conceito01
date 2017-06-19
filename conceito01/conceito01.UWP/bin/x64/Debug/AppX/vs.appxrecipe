@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01.UWP\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-06-16T23:02:01.071</Modified>
+      <Modified>2017-06-19T21:20:20.428</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01.UWP\bin\x64\Debug\conceito01.UWP.exe">
       <PackagePath>entrypoint\conceito01.UWP.exe</PackagePath>
-      <Modified>2017-06-16T23:00:34.828</Modified>
+      <Modified>2017-06-19T21:20:13.418</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fcsouza\.nuget\packages\Microsoft.Azure.Mobile.Client\3.1.0\lib\netcore45\Microsoft.WindowsAzure.Mobile.Ext.dll">
       <PackagePath>Microsoft.WindowsAzure.Mobile.Ext.dll</PackagePath>
@@ -561,7 +561,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01\bin\Debug\conceito01.dll">
       <PackagePath>conceito01.dll</PackagePath>
-      <Modified>2017-06-16T22:59:47.494</Modified>
+      <Modified>2017-06-19T21:20:08.057</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01\bin\Debug\conceito01.dll.config">
       <PackagePath>conceito01.dll.config</PackagePath>
@@ -748,7 +748,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01.UWP\bin\x64\Debug\Core\conceito01.UWP.exe">
       <PackagePath>conceito01.UWP.exe</PackagePath>
-      <Modified>2017-06-16T23:02:00.501</Modified>
+      <Modified>2017-06-19T21:20:20.423</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

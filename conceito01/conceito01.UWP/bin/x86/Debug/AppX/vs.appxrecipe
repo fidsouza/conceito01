@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01.UWP\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>D45A31B2EF3DC144C44623B72BB5040AB8E5C535DE137E3ACAAEB5A7BE37B353</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>6B46E9D6965F96299B06D83072FB90714307371177632CE960B4B18AC5EF05B9</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>abd6440e-efe9-4931-8510-a0272c95b9b9_1.0.0.0_x86__x44wpbn12dx9y</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>abd6440e-efe9-4931-8510-a0272c95b9b9_x44wpbn12dx9y!App</RegisteredUserModeAppID>
     <RegisteredPackageID>abd6440e-efe9-4931-8510-a0272c95b9b9</RegisteredPackageID>
@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-06-16T21:26:56.901</Modified>
+      <Modified>2017-06-19T23:35:57.756</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01.UWP\bin\x86\Debug\conceito01.UWP.exe">
       <PackagePath>entrypoint\conceito01.UWP.exe</PackagePath>
-      <Modified>2017-06-16T21:26:55.968</Modified>
+      <Modified>2017-06-19T23:28:08.880</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fcsouza\.nuget\packages\Microsoft.Azure.Mobile.Client\3.1.0\lib\netcore45\Microsoft.WindowsAzure.Mobile.Ext.dll">
       <PackagePath>Microsoft.WindowsAzure.Mobile.Ext.dll</PackagePath>
@@ -371,9 +371,9 @@
       <PackagePath>System.ObjectModel.dll</PackagePath>
       <Modified>2016-11-05T06:56:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fcsouza\.nuget\packages\System.Private.DataContractSerialization\4.1.1\lib\netstandard1.3\System.Private.DataContractSerialization.dll">
+    <AppxPackagedFile Include="C:\Users\fcsouza\.nuget\packages\System.Private.DataContractSerialization\4.1.2\lib\netstandard1.3\System.Private.DataContractSerialization.dll">
       <PackagePath>System.Private.DataContractSerialization.dll</PackagePath>
-      <Modified>2016-06-12T02:14:10.000</Modified>
+      <Modified>2017-02-09T15:26:02.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fcsouza\.nuget\packages\System.Private.ServiceModel\4.1.0\runtimes\win7\lib\netcore50\System.Private.ServiceModel.dll">
       <PackagePath>System.Private.ServiceModel.dll</PackagePath>
@@ -423,17 +423,17 @@
       <PackagePath>System.Runtime.Serialization.Formatters.dll</PackagePath>
       <Modified>2016-11-05T06:56:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fcsouza\.nuget\packages\System.Runtime.Serialization.Json\4.0.2\lib\netcore50\System.Runtime.Serialization.Json.dll">
+    <AppxPackagedFile Include="C:\Users\fcsouza\.nuget\packages\System.Runtime.Serialization.Json\4.0.3\lib\netcore50\System.Runtime.Serialization.Json.dll">
       <PackagePath>System.Runtime.Serialization.Json.dll</PackagePath>
-      <Modified>2016-06-12T02:14:30.000</Modified>
+      <Modified>2017-02-09T15:26:02.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fcsouza\.nuget\packages\System.Runtime.Serialization.Primitives\4.3.0\lib\netcore50\System.Runtime.Serialization.Primitives.dll">
       <PackagePath>System.Runtime.Serialization.Primitives.dll</PackagePath>
       <Modified>2016-11-05T06:57:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fcsouza\.nuget\packages\System.Runtime.Serialization.Xml\4.1.1\lib\netcore50\System.Runtime.Serialization.Xml.dll">
+    <AppxPackagedFile Include="C:\Users\fcsouza\.nuget\packages\System.Runtime.Serialization.Xml\4.1.2\lib\netcore50\System.Runtime.Serialization.Xml.dll">
       <PackagePath>System.Runtime.Serialization.Xml.dll</PackagePath>
-      <Modified>2016-06-12T02:14:30.000</Modified>
+      <Modified>2017-02-09T15:26:02.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fcsouza\.nuget\packages\System.Runtime.WindowsRuntime\4.3.0\runtimes\win8\lib\netstandard1.3\System.Runtime.WindowsRuntime.dll">
       <PackagePath>System.Runtime.WindowsRuntime.dll</PackagePath>
@@ -559,17 +559,25 @@
       <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
       <Modified>2017-03-29T16:22:30.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01\bin\Debug\conceito01.dll">
-      <PackagePath>conceito01.dll</PackagePath>
-      <Modified>2017-06-16T21:26:53.507</Modified>
+    <AppxPackagedFile Include="C:\Users\fcsouza\.nuget\packages\Xamarin.Forms.Maps\2.3.4.247\lib\uap10.0\Xamarin.Forms.Maps.UWP.dll">
+      <PackagePath>Xamarin.Forms.Maps.UWP.dll</PackagePath>
+      <Modified>2017-05-16T15:30:26.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01\bin\Debug\conceito01.dll.config">
+    <AppxPackagedFile Include="C:\Users\fcsouza\.nuget\packages\Xamarin.Forms.Maps\2.3.4.247\lib\uap10.0\Xamarin.Forms.Maps.dll">
+      <PackagePath>Xamarin.Forms.Maps.dll</PackagePath>
+      <Modified>2017-05-16T15:30:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01\bin\Debug\conceito01.dll">
+      <PackagePath>conceito01.dll</PackagePath>
+      <Modified>2017-06-19T23:23:05.601</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01\bin\Debug\conceito01.dll.config">
       <PackagePath>conceito01.dll.config</PackagePath>
-      <Modified>2017-06-16T21:14:08.675</Modified>
+      <Modified>2017-06-19T23:23:01.548</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01.UWP\facebook.png">
       <PackagePath>facebook.png</PackagePath>
-      <Modified>2017-06-16T20:19:09.056</Modified>
+      <Modified>2017-06-16T22:22:49.907</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01.UWP\Assets\LockScreenLogo.scale-100.png">
       <PackagePath>Assets\LockScreenLogo.scale-100.png</PackagePath>
@@ -721,6 +729,10 @@
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-06-16T14:12:22.126</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01.UWP\schedule.png">
+      <PackagePath>schedule.png</PackagePath>
+      <Modified>2017-06-19T22:57:42.744</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2017-06-16T14:12:22.130</Modified>
@@ -744,11 +756,11 @@
     <AppxPackagedFile Include="C:\Users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-06-16T21:14:16.546</Modified>
+      <Modified>2017-06-19T23:35:57.139</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01.UWP\bin\x86\Debug\Core\conceito01.UWP.exe">
       <PackagePath>conceito01.UWP.exe</PackagePath>
-      <Modified>2017-06-16T21:26:56.896</Modified>
+      <Modified>2017-06-19T23:35:57.732</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

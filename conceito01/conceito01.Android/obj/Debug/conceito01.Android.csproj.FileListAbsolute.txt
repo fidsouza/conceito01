@@ -56,8 +56,10 @@ C:\Users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\con
 C:\Users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01.Android\bin\Debug\Microsoft.WindowsAzure.Mobile.Ext.xml
 C:\Users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01.Android\bin\Debug\System.Net.Http.Extensions.xml
 C:\Users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01.Android\bin\Debug\conceito01.pdb
+C:\Users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01.Android\bin\Debug\conceito01.dll.mdb
 C:\Users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01.Android\bin\Debug\conceito01.Android.dll.mdb
 C:\Users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01.Android\obj\Debug\android\assets\conceito01.Android.dll.mdb
+C:\Users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01.Android\obj\Debug\android\assets\conceito01.dll.mdb
 C:\Users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01.Android\obj\Debug\android\assets\FormsViewGroup.dll.mdb
 C:\Users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
 C:\Users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb

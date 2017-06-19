@@ -20,7 +20,7 @@ namespace conceito01.UWP
         public MainPage()
         {
             this.InitializeComponent();
-
+            Xamarin.FormsMaps.Init("oIxiGsQlXEGxNC5Oz2vn~J55VugDKOfAXsMG7SJ4pOQ~AmLE3_8qcmGgh3eOUsv5iKxfsrc9hfR56S5dFMayq54CCzb0i-rmdlUSBtQu-rcw");
             LoadApplication(new conceito01.App());
         }
     }

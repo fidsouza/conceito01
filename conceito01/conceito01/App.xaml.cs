@@ -13,7 +13,7 @@ namespace conceito01
         {
             InitializeComponent();
 
-            MainPage = new conceito01.LoginPage();
+            MainPage = new NavigationPage(new conceito01.LoginPage());
         }
 
         protected override void OnStart()

@@ -8,7 +8,6 @@ c:\users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\con
 c:\users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01\bin\Debug\Xamarin.Forms.Platform.pdb
 c:\users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01\bin\Debug\Xamarin.Forms.Xaml.pdb
 c:\users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01\bin\Debug\Xamarin.Forms.Xaml.xml
-c:\users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01\obj\Debug\conceito01.MainPage.xaml.g.cs
 c:\users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01\obj\Debug\conceito01.App.xaml.g.cs
 c:\users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01\obj\Debug\conceito01.dll
 c:\users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01\obj\Debug\conceito01.pdb
@@ -29,4 +28,9 @@ c:\users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\con
 c:\users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01\bin\Debug\System.Net.Http.Primitives.xml
 c:\users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01\obj\Debug\conceito01.csproj.App.config
 c:\users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01\obj\Debug\conceito01.LoginPage.xaml.g.cs
-C:\Users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01\obj\Debug\conceito01.DefaultPage.xaml.g.cs
+C:\Users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01\obj\Debug\conceito01.csprojResolveAssemblyReference.cache
+C:\Users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01\obj\Debug\conceito01.MainPage.xaml.g.cs
+C:\Users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01\obj\Debug\conceito01.CadastrarPage.xaml.g.cs
+C:\Users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01\bin\Debug\Xamarin.Forms.Maps.dll
+C:\Users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01\bin\Debug\Xamarin.Forms.Maps.xml
+C:\Users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01\obj\Debug\conceito01.MapPage.xaml.g.cs

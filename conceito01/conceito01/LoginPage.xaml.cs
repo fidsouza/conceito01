@@ -13,7 +13,7 @@ namespace conceito01
         public LoginPage()
         {
             InitializeComponent();
-            BindingContext = new NavigationPage(new DefaultPage());
+            BindingContext = new LoginViewModel();
            // LoginButton.Clicked += async (sender, args) =>
            // {
            //     var user = await azureService.LoginAsync();

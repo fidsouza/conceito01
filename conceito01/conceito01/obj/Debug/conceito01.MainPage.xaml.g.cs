@@ -13,7 +13,7 @@ namespace conceito01 {
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\fcsouza\\documents\\visual studio 2017\\Projects\\conceito01\\conceito01\\conc" +
         "eito01\\MainPage.xaml")]
-    public partial class MainPage : global::Xamarin.Forms.ContentPage {
+    public partial class MainPage : global::Xamarin.Forms.TabbedPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {

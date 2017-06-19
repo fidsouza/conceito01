@@ -1,11 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:local="clr-namespace:conceito01"
-             x:Class="conceito01.MainPage">
-
-	<Label Text="Welcome to Xamarin Forms!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
-
-</ContentPage>
+             xmlns:local="clr-namespace:conceito01;assembly=conceito01"
+             x:Class="conceito01.MainPage"
+             xmlns:pages="clr-namespace:conceito01;assembly=conceito01"
+             Title="TabbedPage">
+  <!--Pages can be added as references or inline-->
+    <NavigationPage Title="Home" Icon="schedule.png">
+        <x:Arguments>
+            <local:CadastrarPage />
+        </x:Arguments>
+    </NavigationPage>
+    <NavigationPage Title="Cadastrar" Icon="schedule.png">
+        <x:Arguments>
+            <local:MapPage />
+        </x:Arguments>
+    </NavigationPage>
+</TabbedPage>

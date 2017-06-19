@@ -34,7 +34,7 @@ namespace conceito01.ViewModel
                 return;
             else
             {
-                new NavigationPage(new DefaultPage());
+                await App.Current.MainPage.Navigation.PushAsync(new MainPage());
 
             }
 
