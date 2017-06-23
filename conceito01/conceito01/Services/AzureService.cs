@@ -15,9 +15,17 @@ namespace conceito01.Services
 
         public static bool UseAuth { get; set; } = false;
 
+
+
+
+
+
         public void Initialize()
         {
             Client = new MobileServiceClient(AppUrl);
+
+
+
 
             if (!string.IsNullOrWhiteSpace(Settings.AuthToken) && !string.IsNullOrWhiteSpace(Settings.UserId))
             {

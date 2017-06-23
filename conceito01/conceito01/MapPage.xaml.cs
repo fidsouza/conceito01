@@ -1,13 +1,12 @@
-﻿using System;
+﻿using conceito01.Model;
+using conceito01.Services;
+using Plugin.ExternalMaps;
+using Plugin.ExternalMaps.Abstractions;
+using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Linq;
-using System.Runtime.CompilerServices;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Input;
-
 using Xamarin.Forms;
+using Xamarin.Forms.Maps;
 using Xamarin.Forms.Xaml;
 
 namespace conceito01
@@ -15,39 +14,76 @@ namespace conceito01
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class MapPage : ContentPage
     {
+        private Pin selectedPin ;
+        
+
         public MapPage()
         {
             InitializeComponent();
-            BindingContext = new MapPageViewModel();
+           
         }
+
+        protected async override void OnAppearing()
+        {
+
+
+
+
+            base.OnAppearing();
+
+
+            List<oficinatable> oficinas = new List<oficinatable>();
+
+            oficinas = await App.Database.GetItemsAsync();
+
+
+            for (int i = 0; i < oficinas.Count; i++)
+            {
+                var pin = new Pin
+                {
+
+                    Position = new Position(Double.Parse(oficinas[i].positiona), Double.Parse(oficinas[i].positionb)),
+                    Label = oficinas[i].label,
+                    Address = oficinas[i].address,
+
+
+
+                };
+
+                   
+
+                pin.Clicked += Pin_Clicked;
+
+                MapOficine.Pins.Add(pin);
+            }
+
+
+
+        }
+
+        private async void Pin_Clicked(object sender, EventArgs e)
+        {
+
+            
+            selectedPin = sender as Pin;
+            lblLabel.Text = selectedPin.Label;
+            lblEndereco.Text = selectedPin.Address;
+
+            await Navigation.PushAsync(new DetalhesPage(selectedPin.Label));
+
+        }
+
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+            
+            CrossExternalMaps.Current.NavigateTo(selectedPin.Label,
+                                                 selectedPin.Position.Latitude,
+                                                 selectedPin.Position.Longitude,
+                                                 NavigationType.Driving);
+        }
+
+  
     }
 
-    class MapPageViewModel : INotifyPropertyChanged
-    {
-
-        public MapPageViewModel()
-        {
-            IncreaseCountCommand = new Command(IncreaseCount);
-        }
-
-        int count;
-
-        string countDisplay = "You clicked 0 times.";
-        public string CountDisplay
-        {
-            get { return countDisplay; }
-            set { countDisplay = value; OnPropertyChanged(); }
-        }
-
-        public ICommand IncreaseCountCommand { get; }
-
-        void IncreaseCount() =>
-            CountDisplay = $"You clicked {++count} times";
-
-
-        public event PropertyChangedEventHandler PropertyChanged;
-        void OnPropertyChanged([CallerMemberName]string propertyName = "") =>
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
-
-    }
+  
 }

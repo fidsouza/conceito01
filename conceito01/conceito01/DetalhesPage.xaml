@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="conceito01.DetalhesPage"
+             Title="DetalhesPage">
+    <ListView x:Name="ListOficinas" >
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <StackLayout Padding="20">
+                        <Label Text="{Binding label}" TextColor="Black" Font="Large"/>
+                        <Label Text="{Binding rating}" TextColor="Gray" Font="Normal"/>
+                    </StackLayout>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+
+
+
+</ContentPage>

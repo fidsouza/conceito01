@@ -2,11 +2,20 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="conceito01.LoginPage"
-             Title="{Binding Title}">
-    <StackLayout HorizontalOptions="Center"
-                 VerticalOptions="CenterAndExpand">
-        <Label Text="Encontre sua oficina" XAlign="Center" YAlign="Center" TextColor="Black" FontSize="Medium"></Label>
-        <Label Text="Para iniciar logue-se com sua conta do facebook" TextColor="Black" FontSize="Medium"></Label>
-        <Button Command="{Binding LoginCommand}" Image="facebook.png" BackgroundColor="Transparent" FontSize="Medium" TextColor="White"/>        
-    </StackLayout>
+             Title="{Binding Title}"
+             BackgroundColor="#1F4E79">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*"  />
+                <RowDefinition Height="*" />
+
+            </Grid.RowDefinitions>
+
+            <Label Grid.Row="1" Font="Larger" TextColor="White" Text="Para iniciar logue com sua conta do facebook"
+				XAlign="Center" YAlign="Center" VerticalOptions="Start" />
+            <Button Grid.Row="1" Command="{Binding LoginCommand}" VerticalOptions="Center" HorizontalOptions="Center"  BackgroundColor="Transparent"  Image="facebook.png"></Button>
+        </Grid>
+    </ContentPage.Content>
 </ContentPage>

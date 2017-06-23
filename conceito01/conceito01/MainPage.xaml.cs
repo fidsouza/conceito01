@@ -14,6 +14,7 @@ namespace conceito01
         public MainPage()
         {
             InitializeComponent();
+            App.Current.MainPage.DisplayAlert("Mensagem", "Clique sobre as localizações para ver os comentários", "Ok");
         }
     }
 }

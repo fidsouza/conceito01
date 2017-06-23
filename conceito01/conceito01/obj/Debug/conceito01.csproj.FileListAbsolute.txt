@@ -34,3 +34,15 @@ C:\Users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\con
 C:\Users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01\bin\Debug\Xamarin.Forms.Maps.dll
 C:\Users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01\bin\Debug\Xamarin.Forms.Maps.xml
 C:\Users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01\obj\Debug\conceito01.MapPage.xaml.g.cs
+C:\Users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01\bin\Debug\SQLitePCLRaw.batteries_green.dll
+C:\Users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01\bin\Debug\SQLitePCLRaw.batteries_v2.dll
+C:\Users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01\bin\Debug\SQLitePCLRaw.core.dll
+C:\Users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01\bin\Debug\SQLite-net.dll
+C:\Users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01\bin\Debug\SQLite-net.xml
+C:\Users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01\bin\Debug\Plugin.ExternalMaps.Abstractions.dll
+C:\Users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01\bin\Debug\Plugin.ExternalMaps.dll
+C:\Users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01\bin\Debug\Plugin.ExternalMaps.pdb
+C:\Users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01\bin\Debug\Plugin.ExternalMaps.xml
+C:\Users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01\bin\Debug\Plugin.ExternalMaps.Abstractions.pdb
+C:\Users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01\bin\Debug\Plugin.ExternalMaps.Abstractions.xml
+C:\Users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01\obj\Debug\conceito01.DetalhesPage.xaml.g.cs

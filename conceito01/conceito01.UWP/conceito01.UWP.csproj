@@ -97,6 +97,7 @@
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
     <Compile Include="Authentication\SocialAuthentication.cs" />
+    <Compile Include="FileHelper.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -109,6 +110,8 @@
     <None Include="conceito01.UWP_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="car.png" />
+    <Content Include="carinit.png" />
     <Content Include="facebook.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-100.png" />

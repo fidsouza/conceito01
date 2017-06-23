@@ -3,12 +3,29 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="conceito01.MapPage"
              xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
-             Title="MapPage">
-    <StackLayout VerticalOptions="StartAndExpand" Padding="30">
-        <maps:Map WidthRequest="320" HeightRequest="200"
-            x:Name="MyMap"
+             Title="Mapa">
+    <StackLayout VerticalOptions="StartAndExpand" Padding="20">
+        <StackLayout Orientation="Vertical" Padding="10,0,10,20">
+            <Label x:Name="lblLabel" TextColor="Black" FontFamily="Segoe" FontSize="20">
+                
+            </Label>
+
+            <Label x:Name="lblEndereco" TextColor="Black" FontFamily="Segoe" FontSize="18">
+
+            </Label>
+
+            <Button Text="Ir para a oficina"
+                    BackgroundColor="#E84A3E"
+                    
+                    TextColor="White"
+                    Clicked="Button_Clicked"></Button>
+
+
+        </StackLayout>
+        <maps:Map WidthRequest="320" HeightRequest="550"  
+            x:Name="MapOficine"
             IsShowingUser="true"
-            MapType="Hybrid"
+            MapType="Street"
         />
     </StackLayout>
 

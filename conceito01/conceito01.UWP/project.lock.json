@@ -562,6 +562,80 @@
           }
         }
       },
+      "sqlite-net-pcl/1.3.3": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.0",
+          "SQLitePCLRaw.bundle_green": "1.1.5"
+        },
+        "compile": {
+          "lib/netstandard1.1/SQLite-net.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.1/SQLite-net.dll": {}
+        }
+      },
+      "SQLitePCLRaw.bundle_green/1.1.5": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.core": "1.1.5",
+          "SQLitePCLRaw.lib.e_sqlite3.v140": "1.1.5",
+          "SQLitePCLRaw.provider.e_sqlite3.uwp10": "1.1.5"
+        },
+        "compile": {
+          "lib/uap10.0/SQLitePCLRaw.batteries_green.dll": {},
+          "lib/uap10.0/SQLitePCLRaw.batteries_v2.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/SQLitePCLRaw.batteries_green.dll": {},
+          "lib/uap10.0/SQLitePCLRaw.batteries_v2.dll": {}
+        }
+      },
+      "SQLitePCLRaw.core/1.1.5": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.0"
+        },
+        "compile": {
+          "lib/uap10.0/SQLitePCLRaw.core.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/SQLitePCLRaw.core.dll": {}
+        }
+      },
+      "SQLitePCLRaw.lib.e_sqlite3.v140/1.1.5": {
+        "type": "package",
+        "build": {
+          "build/SQLitePCLRaw.lib.e_sqlite3.v140.targets": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win10-arm/native/e_sqlite3.dll": {
+            "assetType": "native",
+            "rid": "win10-arm"
+          },
+          "runtimes/win10-x64/native/e_sqlite3.dll": {
+            "assetType": "native",
+            "rid": "win10-x64"
+          },
+          "runtimes/win10-x86/native/e_sqlite3.dll": {
+            "assetType": "native",
+            "rid": "win10-x86"
+          }
+        }
+      },
+      "SQLitePCLRaw.provider.e_sqlite3.uwp10/1.1.5": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.0",
+          "SQLitePCLRaw.core": "1.1.5"
+        },
+        "compile": {
+          "lib/uap10.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
+        }
+      },
       "System.AppContext/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -2500,6 +2574,17 @@
           }
         }
       },
+      "Xam.Plugin.ExternalMaps/3.0.10": {
+        "type": "package",
+        "compile": {
+          "lib/UAP10/Plugin.ExternalMaps.Abstractions.dll": {},
+          "lib/UAP10/Plugin.ExternalMaps.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.ExternalMaps.Abstractions.dll": {},
+          "lib/UAP10/Plugin.ExternalMaps.dll": {}
+        }
+      },
       "Xam.Plugins.Settings/2.5.8": {
         "type": "package",
         "compile": {
@@ -3324,6 +3409,69 @@
         "type": "package",
         "native": {
           "runtimes/win8-arm/native/clrcompression.dll": {}
+        }
+      },
+      "sqlite-net-pcl/1.3.3": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.0",
+          "SQLitePCLRaw.bundle_green": "1.1.5"
+        },
+        "compile": {
+          "lib/netstandard1.1/SQLite-net.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.1/SQLite-net.dll": {}
+        }
+      },
+      "SQLitePCLRaw.bundle_green/1.1.5": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.core": "1.1.5",
+          "SQLitePCLRaw.lib.e_sqlite3.v140": "1.1.5",
+          "SQLitePCLRaw.provider.e_sqlite3.uwp10": "1.1.5"
+        },
+        "compile": {
+          "lib/uap10.0/SQLitePCLRaw.batteries_green.dll": {},
+          "lib/uap10.0/SQLitePCLRaw.batteries_v2.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/SQLitePCLRaw.batteries_green.dll": {},
+          "lib/uap10.0/SQLitePCLRaw.batteries_v2.dll": {}
+        }
+      },
+      "SQLitePCLRaw.core/1.1.5": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.0"
+        },
+        "compile": {
+          "lib/uap10.0/SQLitePCLRaw.core.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/SQLitePCLRaw.core.dll": {}
+        }
+      },
+      "SQLitePCLRaw.lib.e_sqlite3.v140/1.1.5": {
+        "type": "package",
+        "native": {
+          "runtimes/win10-arm/native/e_sqlite3.dll": {}
+        },
+        "build": {
+          "build/SQLitePCLRaw.lib.e_sqlite3.v140.targets": {}
+        }
+      },
+      "SQLitePCLRaw.provider.e_sqlite3.uwp10/1.1.5": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.0",
+          "SQLitePCLRaw.core": "1.1.5"
+        },
+        "compile": {
+          "lib/uap10.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
         }
       },
       "System.AppContext/4.3.0": {
@@ -5080,6 +5228,17 @@
           "lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "Xam.Plugin.ExternalMaps/3.0.10": {
+        "type": "package",
+        "compile": {
+          "lib/UAP10/Plugin.ExternalMaps.Abstractions.dll": {},
+          "lib/UAP10/Plugin.ExternalMaps.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.ExternalMaps.Abstractions.dll": {},
+          "lib/UAP10/Plugin.ExternalMaps.dll": {}
+        }
+      },
       "Xam.Plugins.Settings/2.5.8": {
         "type": "package",
         "compile": {
@@ -5943,6 +6102,69 @@
         },
         "native": {
           "runtimes/win8-arm-aot/native/_._": {}
+        }
+      },
+      "sqlite-net-pcl/1.3.3": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.0",
+          "SQLitePCLRaw.bundle_green": "1.1.5"
+        },
+        "compile": {
+          "lib/netstandard1.1/SQLite-net.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.1/SQLite-net.dll": {}
+        }
+      },
+      "SQLitePCLRaw.bundle_green/1.1.5": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.core": "1.1.5",
+          "SQLitePCLRaw.lib.e_sqlite3.v140": "1.1.5",
+          "SQLitePCLRaw.provider.e_sqlite3.uwp10": "1.1.5"
+        },
+        "compile": {
+          "lib/uap10.0/SQLitePCLRaw.batteries_green.dll": {},
+          "lib/uap10.0/SQLitePCLRaw.batteries_v2.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/SQLitePCLRaw.batteries_green.dll": {},
+          "lib/uap10.0/SQLitePCLRaw.batteries_v2.dll": {}
+        }
+      },
+      "SQLitePCLRaw.core/1.1.5": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.0"
+        },
+        "compile": {
+          "lib/uap10.0/SQLitePCLRaw.core.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/SQLitePCLRaw.core.dll": {}
+        }
+      },
+      "SQLitePCLRaw.lib.e_sqlite3.v140/1.1.5": {
+        "type": "package",
+        "native": {
+          "runtimes/win10-arm/native/e_sqlite3.dll": {}
+        },
+        "build": {
+          "build/SQLitePCLRaw.lib.e_sqlite3.v140.targets": {}
+        }
+      },
+      "SQLitePCLRaw.provider.e_sqlite3.uwp10/1.1.5": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.0",
+          "SQLitePCLRaw.core": "1.1.5"
+        },
+        "compile": {
+          "lib/uap10.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
         }
       },
       "System.AppContext/4.3.0": {
@@ -7699,6 +7921,17 @@
           "runtimes/aot/lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "Xam.Plugin.ExternalMaps/3.0.10": {
+        "type": "package",
+        "compile": {
+          "lib/UAP10/Plugin.ExternalMaps.Abstractions.dll": {},
+          "lib/UAP10/Plugin.ExternalMaps.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.ExternalMaps.Abstractions.dll": {},
+          "lib/UAP10/Plugin.ExternalMaps.dll": {}
+        }
+      },
       "Xam.Plugins.Settings/2.5.8": {
         "type": "package",
         "compile": {
@@ -8532,6 +8765,69 @@
         },
         "runtime": {
           "runtimes/win/lib/netcore50/System.Private.Uri.dll": {}
+        }
+      },
+      "sqlite-net-pcl/1.3.3": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.0",
+          "SQLitePCLRaw.bundle_green": "1.1.5"
+        },
+        "compile": {
+          "lib/netstandard1.1/SQLite-net.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.1/SQLite-net.dll": {}
+        }
+      },
+      "SQLitePCLRaw.bundle_green/1.1.5": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.core": "1.1.5",
+          "SQLitePCLRaw.lib.e_sqlite3.v140": "1.1.5",
+          "SQLitePCLRaw.provider.e_sqlite3.uwp10": "1.1.5"
+        },
+        "compile": {
+          "lib/uap10.0/SQLitePCLRaw.batteries_green.dll": {},
+          "lib/uap10.0/SQLitePCLRaw.batteries_v2.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/SQLitePCLRaw.batteries_green.dll": {},
+          "lib/uap10.0/SQLitePCLRaw.batteries_v2.dll": {}
+        }
+      },
+      "SQLitePCLRaw.core/1.1.5": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.0"
+        },
+        "compile": {
+          "lib/uap10.0/SQLitePCLRaw.core.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/SQLitePCLRaw.core.dll": {}
+        }
+      },
+      "SQLitePCLRaw.lib.e_sqlite3.v140/1.1.5": {
+        "type": "package",
+        "native": {
+          "runtimes/win10-x64/native/e_sqlite3.dll": {}
+        },
+        "build": {
+          "build/SQLitePCLRaw.lib.e_sqlite3.v140.targets": {}
+        }
+      },
+      "SQLitePCLRaw.provider.e_sqlite3.uwp10/1.1.5": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.0",
+          "SQLitePCLRaw.core": "1.1.5"
+        },
+        "compile": {
+          "lib/uap10.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
         }
       },
       "System.AppContext/4.3.0": {
@@ -10286,6 +10582,17 @@
         },
         "runtime": {
           "lib/netcore50/System.Xml.XmlSerializer.dll": {}
+        }
+      },
+      "Xam.Plugin.ExternalMaps/3.0.10": {
+        "type": "package",
+        "compile": {
+          "lib/UAP10/Plugin.ExternalMaps.Abstractions.dll": {},
+          "lib/UAP10/Plugin.ExternalMaps.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.ExternalMaps.Abstractions.dll": {},
+          "lib/UAP10/Plugin.ExternalMaps.dll": {}
         }
       },
       "Xam.Plugins.Settings/2.5.8": {
@@ -11162,6 +11469,69 @@
           "runtimes/aot/lib/netcore50/System.Private.Uri.dll": {}
         }
       },
+      "sqlite-net-pcl/1.3.3": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.0",
+          "SQLitePCLRaw.bundle_green": "1.1.5"
+        },
+        "compile": {
+          "lib/netstandard1.1/SQLite-net.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.1/SQLite-net.dll": {}
+        }
+      },
+      "SQLitePCLRaw.bundle_green/1.1.5": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.core": "1.1.5",
+          "SQLitePCLRaw.lib.e_sqlite3.v140": "1.1.5",
+          "SQLitePCLRaw.provider.e_sqlite3.uwp10": "1.1.5"
+        },
+        "compile": {
+          "lib/uap10.0/SQLitePCLRaw.batteries_green.dll": {},
+          "lib/uap10.0/SQLitePCLRaw.batteries_v2.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/SQLitePCLRaw.batteries_green.dll": {},
+          "lib/uap10.0/SQLitePCLRaw.batteries_v2.dll": {}
+        }
+      },
+      "SQLitePCLRaw.core/1.1.5": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.0"
+        },
+        "compile": {
+          "lib/uap10.0/SQLitePCLRaw.core.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/SQLitePCLRaw.core.dll": {}
+        }
+      },
+      "SQLitePCLRaw.lib.e_sqlite3.v140/1.1.5": {
+        "type": "package",
+        "native": {
+          "runtimes/win10-x64/native/e_sqlite3.dll": {}
+        },
+        "build": {
+          "build/SQLitePCLRaw.lib.e_sqlite3.v140.targets": {}
+        }
+      },
+      "SQLitePCLRaw.provider.e_sqlite3.uwp10/1.1.5": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.0",
+          "SQLitePCLRaw.core": "1.1.5"
+        },
+        "compile": {
+          "lib/uap10.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
+        }
+      },
       "System.AppContext/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -12916,6 +13286,17 @@
           "runtimes/aot/lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "Xam.Plugin.ExternalMaps/3.0.10": {
+        "type": "package",
+        "compile": {
+          "lib/UAP10/Plugin.ExternalMaps.Abstractions.dll": {},
+          "lib/UAP10/Plugin.ExternalMaps.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.ExternalMaps.Abstractions.dll": {},
+          "lib/UAP10/Plugin.ExternalMaps.dll": {}
+        }
+      },
       "Xam.Plugins.Settings/2.5.8": {
         "type": "package",
         "compile": {
@@ -13749,6 +14130,69 @@
         },
         "runtime": {
           "runtimes/win/lib/netcore50/System.Private.Uri.dll": {}
+        }
+      },
+      "sqlite-net-pcl/1.3.3": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.0",
+          "SQLitePCLRaw.bundle_green": "1.1.5"
+        },
+        "compile": {
+          "lib/netstandard1.1/SQLite-net.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.1/SQLite-net.dll": {}
+        }
+      },
+      "SQLitePCLRaw.bundle_green/1.1.5": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.core": "1.1.5",
+          "SQLitePCLRaw.lib.e_sqlite3.v140": "1.1.5",
+          "SQLitePCLRaw.provider.e_sqlite3.uwp10": "1.1.5"
+        },
+        "compile": {
+          "lib/uap10.0/SQLitePCLRaw.batteries_green.dll": {},
+          "lib/uap10.0/SQLitePCLRaw.batteries_v2.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/SQLitePCLRaw.batteries_green.dll": {},
+          "lib/uap10.0/SQLitePCLRaw.batteries_v2.dll": {}
+        }
+      },
+      "SQLitePCLRaw.core/1.1.5": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.0"
+        },
+        "compile": {
+          "lib/uap10.0/SQLitePCLRaw.core.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/SQLitePCLRaw.core.dll": {}
+        }
+      },
+      "SQLitePCLRaw.lib.e_sqlite3.v140/1.1.5": {
+        "type": "package",
+        "native": {
+          "runtimes/win10-x86/native/e_sqlite3.dll": {}
+        },
+        "build": {
+          "build/SQLitePCLRaw.lib.e_sqlite3.v140.targets": {}
+        }
+      },
+      "SQLitePCLRaw.provider.e_sqlite3.uwp10/1.1.5": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.0",
+          "SQLitePCLRaw.core": "1.1.5"
+        },
+        "compile": {
+          "lib/uap10.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
         }
       },
       "System.AppContext/4.3.0": {
@@ -15505,6 +15949,17 @@
           "lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "Xam.Plugin.ExternalMaps/3.0.10": {
+        "type": "package",
+        "compile": {
+          "lib/UAP10/Plugin.ExternalMaps.Abstractions.dll": {},
+          "lib/UAP10/Plugin.ExternalMaps.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.ExternalMaps.Abstractions.dll": {},
+          "lib/UAP10/Plugin.ExternalMaps.dll": {}
+        }
+      },
       "Xam.Plugins.Settings/2.5.8": {
         "type": "package",
         "compile": {
@@ -16377,6 +16832,69 @@
         },
         "runtime": {
           "runtimes/aot/lib/netcore50/System.Private.Uri.dll": {}
+        }
+      },
+      "sqlite-net-pcl/1.3.3": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.0",
+          "SQLitePCLRaw.bundle_green": "1.1.5"
+        },
+        "compile": {
+          "lib/netstandard1.1/SQLite-net.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.1/SQLite-net.dll": {}
+        }
+      },
+      "SQLitePCLRaw.bundle_green/1.1.5": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.core": "1.1.5",
+          "SQLitePCLRaw.lib.e_sqlite3.v140": "1.1.5",
+          "SQLitePCLRaw.provider.e_sqlite3.uwp10": "1.1.5"
+        },
+        "compile": {
+          "lib/uap10.0/SQLitePCLRaw.batteries_green.dll": {},
+          "lib/uap10.0/SQLitePCLRaw.batteries_v2.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/SQLitePCLRaw.batteries_green.dll": {},
+          "lib/uap10.0/SQLitePCLRaw.batteries_v2.dll": {}
+        }
+      },
+      "SQLitePCLRaw.core/1.1.5": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.0"
+        },
+        "compile": {
+          "lib/uap10.0/SQLitePCLRaw.core.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/SQLitePCLRaw.core.dll": {}
+        }
+      },
+      "SQLitePCLRaw.lib.e_sqlite3.v140/1.1.5": {
+        "type": "package",
+        "native": {
+          "runtimes/win10-x86/native/e_sqlite3.dll": {}
+        },
+        "build": {
+          "build/SQLitePCLRaw.lib.e_sqlite3.v140.targets": {}
+        }
+      },
+      "SQLitePCLRaw.provider.e_sqlite3.uwp10/1.1.5": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.0",
+          "SQLitePCLRaw.core": "1.1.5"
+        },
+        "compile": {
+          "lib/uap10.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
         }
       },
       "System.AppContext/4.3.0": {
@@ -18131,6 +18649,17 @@
         },
         "runtime": {
           "runtimes/aot/lib/netcore50/System.Xml.XmlSerializer.dll": {}
+        }
+      },
+      "Xam.Plugin.ExternalMaps/3.0.10": {
+        "type": "package",
+        "compile": {
+          "lib/UAP10/Plugin.ExternalMaps.Abstractions.dll": {},
+          "lib/UAP10/Plugin.ExternalMaps.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.ExternalMaps.Abstractions.dll": {},
+          "lib/UAP10/Plugin.ExternalMaps.dll": {}
         }
       },
       "Xam.Plugins.Settings/2.5.8": {
@@ -21927,6 +22456,113 @@
         "runtime.win8-arm.runtime.native.system.io.compression.4.3.0.nupkg.sha512",
         "runtime.win8-arm.runtime.native.system.io.compression.nuspec",
         "runtimes/win8-arm/native/clrcompression.dll"
+      ]
+    },
+    "sqlite-net-pcl/1.3.3": {
+      "sha512": "hogbKlCXPzclDO4yPg93IbXExI2uxDdDeSH5azBJMH9HQRUcb/aC+I8qL5lBgyrutbbcg0q6vOOPSleHifx/TQ==",
+      "type": "package",
+      "path": "sqlite-net-pcl/1.3.3",
+      "files": [
+        "lib/netstandard1.1/SQLite-net.dll",
+        "lib/netstandard1.1/SQLite-net.dll.mdb",
+        "lib/netstandard1.1/SQLite-net.xml",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLite-net.dll",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLite-net.dll.mdb",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLite-net.xml",
+        "sqlite-net-pcl.1.3.3.nupkg.sha512",
+        "sqlite-net-pcl.nuspec"
+      ]
+    },
+    "SQLitePCLRaw.bundle_green/1.1.5": {
+      "sha512": "rz+SPgp57CAWkEfCJmWqHXMd+fSqhgYmzOdjkSbCQ3OEG0I3+vUlycElvy5zTi0GAYg5pVrmRqbquotS0985CQ==",
+      "type": "package",
+      "path": "sqlitepclraw.bundle_green/1.1.5",
+      "files": [
+        "build/wp8/SQLitePCLRaw.bundle_green.targets",
+        "build/wp80/arm/SQLitePCLRaw.batteries_green.dll",
+        "build/wp80/arm/SQLitePCLRaw.batteries_v2.dll",
+        "build/wp80/x86/SQLitePCLRaw.batteries_green.dll",
+        "build/wp80/x86/SQLitePCLRaw.batteries_v2.dll",
+        "lib/MonoAndroid/SQLitePCLRaw.batteries_green.dll",
+        "lib/MonoAndroid/SQLitePCLRaw.batteries_v2.dll",
+        "lib/Xamarin.Mac20/SQLitePCLRaw.batteries_green.dll",
+        "lib/Xamarin.Mac20/SQLitePCLRaw.batteries_v2.dll",
+        "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_green.dll",
+        "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll",
+        "lib/net35/SQLitePCLRaw.batteries_green.dll",
+        "lib/net35/SQLitePCLRaw.batteries_v2.dll",
+        "lib/net40/SQLitePCLRaw.batteries_green.dll",
+        "lib/net40/SQLitePCLRaw.batteries_v2.dll",
+        "lib/net45/SQLitePCLRaw.batteries_green.dll",
+        "lib/net45/SQLitePCLRaw.batteries_v2.dll",
+        "lib/netcoreapp/SQLitePCLRaw.batteries_green.dll",
+        "lib/netcoreapp/SQLitePCLRaw.batteries_v2.dll",
+        "lib/netstandard1.1/SQLitePCLRaw.batteries_green.dll",
+        "lib/netstandard1.1/SQLitePCLRaw.batteries_v2.dll",
+        "lib/portable-net40+sl5+netcore45+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLitePCLRaw.batteries_green.dll",
+        "lib/portable-net40+sl5+netcore45+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll",
+        "lib/portable-net45+netcore45+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLitePCLRaw.batteries_green.dll",
+        "lib/portable-net45+netcore45+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLitePCLRaw.batteries_green.dll",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll",
+        "lib/uap10.0/SQLitePCLRaw.batteries_green.dll",
+        "lib/uap10.0/SQLitePCLRaw.batteries_v2.dll",
+        "lib/win8/SQLitePCLRaw.batteries_green.dll",
+        "lib/win8/SQLitePCLRaw.batteries_v2.dll",
+        "lib/win81/SQLitePCLRaw.batteries_green.dll",
+        "lib/win81/SQLitePCLRaw.batteries_v2.dll",
+        "lib/wp8/_._",
+        "lib/wpa81/SQLitePCLRaw.batteries_green.dll",
+        "lib/wpa81/SQLitePCLRaw.batteries_v2.dll",
+        "sqlitepclraw.bundle_green.1.1.5.nupkg.sha512",
+        "sqlitepclraw.bundle_green.nuspec"
+      ]
+    },
+    "SQLitePCLRaw.core/1.1.5": {
+      "sha512": "NViT1KDYnPAQo7yoYmkAMWzT15ZjqbLTSZp9iTVwZDz7fBC5fQ9TYebOFUIxYxrD/RvBpYB8m9PtcL8x/QbKNg==",
+      "type": "package",
+      "path": "sqlitepclraw.core/1.1.5",
+      "files": [
+        "lib/MonoAndroid/SQLitePCLRaw.core.dll",
+        "lib/Xamarin.Mac20/SQLitePCLRaw.core.dll",
+        "lib/Xamarin.iOS10/SQLitePCLRaw.core.dll",
+        "lib/net35/SQLitePCLRaw.core.dll",
+        "lib/net40/SQLitePCLRaw.core.dll",
+        "lib/net45/SQLitePCLRaw.core.dll",
+        "lib/netstandard1.0/SQLitePCLRaw.core.dll",
+        "lib/netstandard1.1/SQLitePCLRaw.core.dll",
+        "lib/portable-net40+sl5+netcore45+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLitePCLRaw.core.dll",
+        "lib/portable-net45+netcore45+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLitePCLRaw.core.dll",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLitePCLRaw.core.dll",
+        "lib/uap10.0/SQLitePCLRaw.core.dll",
+        "lib/win8/SQLitePCLRaw.core.dll",
+        "lib/win81/SQLitePCLRaw.core.dll",
+        "lib/wpa81/SQLitePCLRaw.core.dll",
+        "sqlitepclraw.core.1.1.5.nupkg.sha512",
+        "sqlitepclraw.core.nuspec"
+      ]
+    },
+    "SQLitePCLRaw.lib.e_sqlite3.v140/1.1.5": {
+      "sha512": "FchuM2weo1w2FWQgy1ZSoAQNGaUzM7EKuvZDT9XpoUuyBdAhns7pzRHN3KBmx9abaHbKjjpitT6luC0VgWatMw==",
+      "type": "package",
+      "path": "sqlitepclraw.lib.e_sqlite3.v140/1.1.5",
+      "files": [
+        "build/SQLitePCLRaw.lib.e_sqlite3.v140.targets",
+        "runtimes/win10-arm/native/e_sqlite3.dll",
+        "runtimes/win10-x64/native/e_sqlite3.dll",
+        "runtimes/win10-x86/native/e_sqlite3.dll",
+        "sqlitepclraw.lib.e_sqlite3.v140.1.1.5.nupkg.sha512",
+        "sqlitepclraw.lib.e_sqlite3.v140.nuspec"
+      ]
+    },
+    "SQLitePCLRaw.provider.e_sqlite3.uwp10/1.1.5": {
+      "sha512": "2QAQ2ujc51ZTo7W9THPkjo+12FkhAwTCJJ9LwPRmH7BERO+2PL2OEc2kzQjG0s2QQdbRBfFPUxMwbyOQ1u42jA==",
+      "type": "package",
+      "path": "sqlitepclraw.provider.e_sqlite3.uwp10/1.1.5",
+      "files": [
+        "lib/uap10.0/SQLitePCLRaw.provider.e_sqlite3.dll",
+        "sqlitepclraw.provider.e_sqlite3.uwp10.1.1.5.nupkg.sha512",
+        "sqlitepclraw.provider.e_sqlite3.uwp10.nuspec"
       ]
     },
     "System.AppContext/4.3.0": {
@@ -27114,6 +27750,56 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "Xam.Plugin.ExternalMaps/3.0.10": {
+      "sha512": "ZEkmx2wR+aeVpQP1cLwZ91PoKHNjXSHZk40jxFjn4v03tY3aqUs5yuk2q2oLWeE6H7UL5IAARxUEFj3S3VPHIA==",
+      "type": "package",
+      "path": "xam.plugin.externalmaps/3.0.10",
+      "files": [
+        "lib/MonoAndroid10/Plugin.ExternalMaps.Abstractions.dll",
+        "lib/MonoAndroid10/Plugin.ExternalMaps.Abstractions.pdb",
+        "lib/MonoAndroid10/Plugin.ExternalMaps.Abstractions.xml",
+        "lib/MonoAndroid10/Plugin.ExternalMaps.dll",
+        "lib/MonoAndroid10/Plugin.ExternalMaps.pdb",
+        "lib/MonoAndroid10/Plugin.ExternalMaps.xml",
+        "lib/UAP10/Plugin.ExternalMaps.Abstractions.dll",
+        "lib/UAP10/Plugin.ExternalMaps.Abstractions.pdb",
+        "lib/UAP10/Plugin.ExternalMaps.Abstractions.xml",
+        "lib/UAP10/Plugin.ExternalMaps.dll",
+        "lib/UAP10/Plugin.ExternalMaps.pdb",
+        "lib/UAP10/Plugin.ExternalMaps.xml",
+        "lib/Xamarin.iOS10/Plugin.ExternalMaps.Abstractions.dll",
+        "lib/Xamarin.iOS10/Plugin.ExternalMaps.Abstractions.xml",
+        "lib/Xamarin.iOS10/Plugin.ExternalMaps.dll",
+        "lib/Xamarin.iOS10/Plugin.ExternalMaps.xml",
+        "lib/portable-net45+wp80+win8+wpa81/Plugin.ExternalMaps.Abstractions.dll",
+        "lib/portable-net45+wp80+win8+wpa81/Plugin.ExternalMaps.Abstractions.pdb",
+        "lib/portable-net45+wp80+win8+wpa81/Plugin.ExternalMaps.Abstractions.xml",
+        "lib/portable-net45+wp80+win8+wpa81/Plugin.ExternalMaps.dll",
+        "lib/portable-net45+wp80+win8+wpa81/Plugin.ExternalMaps.pdb",
+        "lib/portable-net45+wp80+win8+wpa81/Plugin.ExternalMaps.xml",
+        "lib/win8/Plugin.ExternalMaps.Abstractions.dll",
+        "lib/win8/Plugin.ExternalMaps.Abstractions.pdb",
+        "lib/win8/Plugin.ExternalMaps.Abstractions.xml",
+        "lib/win8/Plugin.ExternalMaps.dll",
+        "lib/win8/Plugin.ExternalMaps.pdb",
+        "lib/win8/Plugin.ExternalMaps.xml",
+        "lib/wp8/Plugin.ExternalMaps.Abstractions.dll",
+        "lib/wp8/Plugin.ExternalMaps.Abstractions.pdb",
+        "lib/wp8/Plugin.ExternalMaps.Abstractions.xml",
+        "lib/wp8/Plugin.ExternalMaps.dll",
+        "lib/wp8/Plugin.ExternalMaps.pdb",
+        "lib/wp8/Plugin.ExternalMaps.xml",
+        "lib/wpa81/Plugin.ExternalMaps.Abstractions.dll",
+        "lib/wpa81/Plugin.ExternalMaps.Abstractions.pdb",
+        "lib/wpa81/Plugin.ExternalMaps.Abstractions.xml",
+        "lib/wpa81/Plugin.ExternalMaps.dll",
+        "lib/wpa81/Plugin.ExternalMaps.pdb",
+        "lib/wpa81/Plugin.ExternalMaps.xml",
+        "readme.txt",
+        "xam.plugin.externalmaps.3.0.10.nupkg.sha512",
+        "xam.plugin.externalmaps.nuspec"
+      ]
+    },
     "Xam.Plugins.Settings/2.5.8": {
       "sha512": "iqGTobVkbZf6b0weWwk6ex3bnp8WJ4ipvfV4rT9I47I+qCf1VTffTYFtFwSRU3W53xSl9WtOW6n5vbgEpNJdaw==",
       "type": "package",
@@ -27398,9 +28084,11 @@
       "Microsoft.Azure.Mobile.Client >= 3.1.0",
       "Microsoft.NETCore.UniversalWindowsPlatform >= 5.3.3",
       "Newtonsoft.Json >= 10.0.2",
+      "Xam.Plugin.ExternalMaps >= 3.0.10",
       "Xam.Plugins.Settings >= 2.5.8",
       "Xamarin.Forms >= 2.3.4.224",
-      "Xamarin.Forms.Maps >= 2.3.4.247"
+      "Xamarin.Forms.Maps >= 2.3.4.247",
+      "sqlite-net-pcl >= 1.3.3"
     ],
     "UAP,Version=v10.0": []
   },
@@ -27428,6 +28116,8 @@
       "Microsoft.Azure.Mobile.Client": "3.1.0",
       "Microsoft.NETCore.UniversalWindowsPlatform": "5.3.3",
       "Newtonsoft.Json": "10.0.2",
+      "sqlite-net-pcl": "1.3.3",
+      "Xam.Plugin.ExternalMaps": "3.0.10",
       "Xam.Plugins.Settings": "2.5.8",
       "Xamarin.Forms": "2.3.4.224",
       "Xamarin.Forms.Maps": "2.3.4.247"

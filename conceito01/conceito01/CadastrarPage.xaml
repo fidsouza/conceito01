@@ -5,5 +5,37 @@
              Title="CadastrarPage">
   <ScrollView>
 
-  </ScrollView>
+
+        <StackLayout VerticalOptions="StartAndExpand">
+
+            <Label  Text="Digite os dados para cadastrar sua oficina"></Label>
+            <Label  Text="Latitude Ex:20.856" />
+            <Entry  x:Name="latitudeentry" Placeholder="Latitude" />
+            <Label  Text="Longitude Ex:20.555" />
+            <Entry   x:Name="longitudeentry" Placeholder="Longitude" />
+            <Label  Text="Descrição" />
+            <Entry  x:Name="descricaoentry" Placeholder="Nome do local"/>
+            <Label  Text="Endereço" />
+            <Entry  x:Name="enderecoentry" Placeholder="endereço..."/>
+
+            <Label Text="De sua nota para a oficina"></Label>
+            <Picker x:Name="ColumnPicker"  HorizontalOptions="FillAndExpand">
+                <Picker.Items>
+                    <x:String>1 - Péssimo</x:String>
+                    <x:String>2 - Ruim</x:String>
+                    <x:String>3 - Regular</x:String>
+                    <x:String>4 - Bom</x:String>
+                    <x:String>5 - Muito Bom</x:String>
+                </Picker.Items>
+            </Picker>
+            
+            <Label  Text="Uso dos dados:todos os dados armazenados não serão divulgados a terceiros são unicamente para fins de cadastro no app." />
+            <Switch  x:Name="privacidade"  ></Switch>
+
+            <Button Text="Cadastrar" Clicked="Button_Clicked"  />
+
+
+        </StackLayout>
+
+    </ScrollView>
 </ContentPage>

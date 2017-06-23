@@ -1,0 +1,5 @@
+conceito01, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  conceito01.App.xaml
+  conceito01.MainPage.xaml
+Microsoft.WindowsAzure.Mobile, Version=3.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+  Microsoft.WindowsAzure.MobileServices.Resources.resources

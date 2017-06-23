@@ -1,0 +1,12 @@
+/out:"C:\Users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01.UWP\obj\x86\Release\ilc\intermediate\SgGenerated\\"
+/int:"C:\Users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01.UWP\obj\x86\Release\ilc\intermediate\\"
+/ref:"C:\Users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01.UWP\obj\x86\Release\ilc\intermediate\PreMergeILTransformed"
+/ref:"C:\Users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01.UWP\obj\x86\Release\ilc\intermediate\TransformedSRWR"
+/ref:"C:\Users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01.UWP\obj\x86\Release\ilc\in"
+/ref:"C:\Users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01.UWP\obj\x86\Release\ilc\in\\"
+/ref:"C:\Users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01.UWP\obj\x86\Release\ilc\in\\"
+/ref:"C:\Users\fcsouza\.nuget\packages\microsoft.net.native.compiler\1.6.2\tools\x86\ilc\lib\Private\\"
+/ref:"C:\Users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01.UWP\obj\x86\Release\ilc\in\WinMetadata"
+/ca:System.Private.CoreLib
+/cscpath:"C:\Users\fcsouza\.nuget\packages\microsoft.net.native.compiler\1.6.2\tools\x86\ilc\csc"
+"@C:\Users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01.UWP\obj\x86\Release\ilc\intermediate\PreMergeILTransformed\ComputedSerializationInput.txt"

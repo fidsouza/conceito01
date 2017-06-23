@@ -241,3 +241,13 @@ C:\Users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\con
 C:\Users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01.UWP\bin\x86\Debug\Xamarin.Forms.Maps.UWP.dll
 C:\Users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01.UWP\bin\x86\Debug\Xamarin.Forms.Maps.dll
 C:\Users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01.UWP\obj\x86\Debug\Xamarin.Forms.Maps.UWP.pri.xml
+C:\Users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01.UWP\bin\x86\Debug\e_sqlite3.dll
+C:\Users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01.UWP\bin\x86\Debug\SQLitePCLRaw.batteries_green.dll
+C:\Users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01.UWP\bin\x86\Debug\SQLitePCLRaw.batteries_v2.dll
+C:\Users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01.UWP\bin\x86\Debug\SQLitePCLRaw.core.dll
+C:\Users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01.UWP\bin\x86\Debug\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01.UWP\bin\x86\Debug\SQLite-net.dll
+C:\Users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01.UWP\bin\x86\Debug\Plugin.ExternalMaps.Abstractions.dll
+C:\Users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01.UWP\bin\x86\Debug\Plugin.ExternalMaps.Abstractions.pdb
+C:\Users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01.UWP\bin\x86\Debug\Plugin.ExternalMaps.dll
+C:\Users\fcsouza\documents\visual studio 2017\Projects\conceito01\conceito01\conceito01.UWP\bin\x86\Debug\Plugin.ExternalMaps.pdb

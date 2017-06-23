@@ -1,4 +1,5 @@
 WinMetadata\Windows.winmd
+e_sqlite3.dll
 Assets\LockScreenLogo.scale-100.png
 Assets\LockScreenLogo.scale-125.png
 Assets\LockScreenLogo.scale-150.png
@@ -31,6 +32,8 @@ Assets\Wide310x150Logo.scale-150.png
 Assets\Wide310x150Logo.scale-200.png
 Assets\Wide310x150Logo.scale-400.png
 conceito01.UWP.xr.xml
+car.png
+carinit.png
 facebook.png
 Properties\Default.rd.xml
 schedule.png
